@@ -619,7 +619,7 @@ textarea::placeholder {
 
 .hero__title {
   font-size: 44px;
-  line-height: 1.3636363636px;
+  line-height: 1.3636363636;
   letter-spacing: 0.06em;
   text-align: center;
   font-weight: 900;
@@ -635,7 +635,7 @@ textarea::placeholder {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875px;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--btn-activity-color);
@@ -683,7 +683,7 @@ textarea::placeholder {
 .quality__pre-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1428571429px;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-align: none;
   margin-bottom: 10px;
@@ -691,7 +691,7 @@ textarea::placeholder {
 
 .quality__discription {
   font-size: 14px;
-  line-height: 1.7142857143px;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   text-align: none;
   color: var(--discription-color);
@@ -707,7 +707,7 @@ textarea::placeholder {
 
 .activity__title {
   font-size: 36px;
-  line-height: 1.1666666667px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
@@ -732,7 +732,7 @@ textarea::placeholder {
   bottom: 0;
   padding: 27px 0;
   font-size: 14px;
-  line-height: 1.1428571429px;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-align: center;
   text-transform: uppercase;
@@ -751,7 +751,7 @@ textarea::placeholder {
 
 .team__title {
   font-size: 36px;
-  line-height: 1.1666666667px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
@@ -777,7 +777,7 @@ textarea::placeholder {
 .card__name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.1875px;
+  line-height: 1.1875;
   letter-spacing: 0.03em;
   text-align: center;
   padding-top: 30px;
@@ -786,7 +786,7 @@ textarea::placeholder {
 
 .card__post {
   font-size: 16px;
-  line-height: 1.1875px;
+  line-height: 1.1875;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--discription-color);
@@ -837,7 +837,7 @@ textarea::placeholder {
 
 .client__titel {
   font-size: 36px;
-  line-height: 1.1666666667px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
@@ -898,7 +898,7 @@ textarea::placeholder {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.625px;
+  line-height: 1.625;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--primery-text-color);
@@ -963,7 +963,7 @@ textarea::placeholder {
 }
 .overlay p {
   font-size: 18px;
-  line-height: 1.5555555556px;
+  line-height: 1.5555555556;
   letter-spacing: 0.03em;
   text-align: none;
   padding: 63px 24px;
@@ -977,7 +977,7 @@ textarea::placeholder {
 
 .project-title {
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2;
   letter-spacing: 0.06em;
   text-align: none;
   color: var(--primery-text-color);
@@ -988,7 +988,7 @@ textarea::placeholder {
 
 .project-discription {
   font-size: 16px;
-  line-height: 1.875px;
+  line-height: 1.875;
   letter-spacing: 0.03em;
   text-align: none;
   color: var(--discription-color);
