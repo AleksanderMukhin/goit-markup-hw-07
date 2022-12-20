@@ -1,0 +1,12 @@
+@mixin font($fs:36, $lh:42, $ls:0.03, $ta:center) {
+    font-size: $fs + px;
+    line-height: $lh / $fs + px;
+    letter-spacing: $ls + em;
+    text-align: $ta;
+}
+
+@mixin centeredFlex($dp:flex, $ai:center, $jc:center) {
+  display: $dp;
+  align-items: $ai;
+  justify-content: $jc;  
+}

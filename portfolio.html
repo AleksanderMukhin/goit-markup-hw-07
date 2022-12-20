@@ -2,89 +2,66 @@
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="IE=edge"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles.css"
-    />
+      referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/main.min.css"/>
     <title>Портфолио</title>
   </head>
   <body>
     <!--Верхня лінія-->
      <header class="header">
       <div class="container header-container">
-        <nav class="site-nav">
+        <nav class="navigation">
           <a href="" lang="en"
-            class="header-logo"
-            >Web<span class="studio-header">Studio</span>
+            class="logo"
+            >Web<span class="logo--bleu-black">Studio</span>
           </a>
 
-          <ul class="lists list-nav">
-            <li class="item">
+          <ul class="lists navigation__list">
+            <li class="navigation__item">
               <a href="./index.html"
-                class="header-link">
-                Студія
+                class="navigation__link">Студія
               </a>              
             </li>
 
-            <li class="item item-current">
+            <li class="navigation__item">
               <a href="./portfolio.html"
-                class="header-link current"
+                class="navigation__link current"
                 >Портфоліо
               </a>
             </li>
 
-            <li class="item">
+            <li class="navigation__item">
               <a href="./contacts.html"
-                class="header-link">Контакти
+                class="navigation__link">Контакти
               </a>
             </li>
           </ul>
         </nav>
 
-        <div class="header-contact-container">
-          <ul class="lists nav-contact">
-            <li class="item">
+        <div class="connection">
+          <ul class="lists connection__list">
+            <li class="connection__item">
               <a href="mailto:info@devstudio.com"
-                class="header-contact"
-                >
-                <svg width="16" height="16" class="header-icon">
+                class="connection__link">
+                <svg width="16" height="16" class="connection__icon">
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>info@devstudio.com
               </a>
             </li>
 
-            <li class="item">
+            <li class="connection__item">
               <a href="tel:+380961111111"
-                class="header-contact"
-                ><svg width="16" height="16" class="header-icon">
+                class="connection__link"
+                ><svg width="16" height="16" class="connection__icon">
                   <use href="./images/icons.svg#icon-phone"></use>
                 </svg>+38 096 111 11 11
               </a>
@@ -98,7 +75,7 @@
       <!--Портфоліо-->
       <section class="portfolio global">
         <div class="container">
-          <h1 class="hidden-title">
+          <h1 class="hidden">
             Портфоліо
           </h1>
           <!-- Filtr -->
@@ -424,7 +401,7 @@
         <div class="adress-container">
           <a href=""
             lang="en"
-            class="footer-logo"
+            class="logo--bleu-white"
             >Web<span class="footer-studio"
             >Studio</span></a>
           <address>
@@ -484,18 +461,18 @@
             
             <div class="subscription">
               <p class="subscription-text">Підпишіться на розсилку</p>
+              <form action="">
               <ul class="subscription-list lists">
                 <li class="subscription-mail">
                   <label>
                   <input class="footer-input" type="email" name="email" placeholder="E-mail" required>
                   </label>
                 </li>
-                <li class="item-btn">
-                  <button class="subscription-btn" type="submit">
-                    Підписатися
-                  </button>
+                <li>
+                  <button class="subscription-btn" type="submit">Підписатися</button>
                 </li>
               </ul>
+              </form>
             </div>
 
       </div>
